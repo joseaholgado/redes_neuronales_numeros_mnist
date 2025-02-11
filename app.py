@@ -7,7 +7,7 @@ from PIL import Image, ImageOps
 # 📌 Cargar el modelo entrenado
 @st.cache_resource
 def cargar_modelo():
-    model = load_model("./modelo_mnist.h5")  # Asegúrate de que el modelo esté en la misma carpeta
+    model = load_model("modelo_mnist.tf")  # Asegúrate de que el modelo esté en la misma carpeta
     return model
 
 model = cargar_modelo()
