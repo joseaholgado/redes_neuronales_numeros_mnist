@@ -13,7 +13,7 @@ Este proyecto implementa una red neuronal para clasificar dígitos escritos a ma
 ### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/joseaholgado/redes_neuronales_numeros_mnist.git
-cd TU_REPOSITORIO
+cd redes_neuronales_numeros_mnist
 ```
 
 ### 2️⃣ Instalar dependencias
